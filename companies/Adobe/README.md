@@ -1,27 +1,59 @@
-# Adobe Interview Questions & PYQs 🔴
+# Adobe Online Assessment (OA) Guide & PYQs (2023 - 2025/2026) 🔴
 
-## 🎯 Hiring Process Overview
-- **Online Assessment:** HackerRank test with 2–3 DSA coding questions + 20 MCQs covering Quantitative Aptitude, OS, DBMS, and OOP concepts.
-- **Technical Rounds:**
-  - 2–3 DSA and Problem-Solving Rounds
-  - Discussion on OOPs concepts, Design Patterns, C++/Java memory management, pointers, and multithreading.
-  - HR & Managerial Round
+## 📌 OA Overview & Test Logistics
+- **Assessment Platform:** **HackerRank**
+- **Test Duration:** 120 minutes
+- **Structure Breakdown:**
+  1. **Section 1: Quantitative Aptitude & Logical Reasoning** (10–15 MCQs, 25 mins)
+  2. **Section 2: Computer Science Fundamentals** (15–20 MCQs, 35 mins) – OS, DBMS, OOPs, Computer Networks, C++ Pointers/Output prediction.
+  3. **Section 3: Coding Assessment** (2 Coding Questions, 60 mins) – Medium to Hard difficulty.
+- **Negative Marking:** Typically present on MCQs (-0.25).
+- **Cutoff Benchmark:** High overall aggregate score is required (~75%+ across MCQs + at least 1.5 coding questions passing all test cases).
 
-## 💡 Key Focus Areas
-- Arrays, Matrix manipulations, and Math
-- Dynamic Programming (0/1 Knapsack, Coin Change variations)
-- Bit Manipulation (XOR tricks, set bit counting)
-- Binary Trees and BST
-- OOPs & System Design fundamentals
+---
 
-## 📝 Frequently Asked Previous Year Questions (PYQs)
+## 🎯 Exam Pattern & Question Topics (Last 3 Years Analysis)
 
-| Problem Name | Difficulty | Key Topics | LeetCode / Reference |
+| Frequency | Topic | Typical Difficulty | Key Concepts Tested |
 |---|---|---|---|
-| Single Number II / III | Medium | Bit Manipulation | LeetCode 137 / 260 |
-| Longest Increasing Subsequence | Medium | DP / Binary Search (Patience Sorting) | LeetCode 300 |
-| Trapping Rain Water | Hard | Two Pointers / Monotonic Stack | LeetCode 42 |
-| Median of Two Sorted Arrays | Hard | Binary Search / Divide & Conquer | LeetCode 4 |
-| Clone Graph | Medium | BFS / DFS / HashMap | LeetCode 133 |
-| Implement Trie (Prefix Tree) | Medium | Trie / Design | LeetCode 208 |
-| Maximum Product Subarray | Medium | Array / Dynamic Programming | LeetCode 152 |
+| **Very High** | Bit Manipulation | Medium | XOR properties, set bit patterns, single number variants |
+| **Very High** | Dynamic Programming | Medium - Hard | Subarray/subsequence maximum product, coin change, edit distance |
+| **High** | Trees & Binary Search Trees | Medium | LCA, diameter, tree construction, path sums |
+| **High** | Arrays & Two Pointers | Medium | Trapping rain water, container with most water, Dutch national flag |
+| **Medium** | Core CS & OOP Concepts | Medium | Virtual functions, inheritance diamond problem, ACID, paging, semaphores |
+
+---
+
+## 📝 Recent Real OA Questions Asked (2023, 2024, 2025)
+
+### 1. Single Number III (Two Unique Elements)
+- **Problem Summary:** Given an integer array `nums`, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once in linear runtime and constant extra space.
+- **LeetCode Equivalent:** [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
+- **Approach:** XOR all elements to get $x \oplus y$. Find the lowest set bit in the cumulative XOR (`diff = xor & (-xor)`). Partition elements into two groups based on this bit and XOR each group separately.
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+### 2. Maximum Product Subarray
+- **Problem Summary:** Given an integer array `nums`, find a contiguous non-empty subarray that has the largest product, and return the product.
+- **LeetCode Equivalent:** [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- **Approach:** Track both `max_product` and `min_product` ending at the current index (since multiplying by a negative number flips minimum into maximum).
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+### 3. Trapping Rain Water Variations
+- **Problem Summary:** Given $n$ non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+- **LeetCode Equivalent:** [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- **Approach:** Two pointers (`left`, `right`) with `max_left` and `max_right` tracking.
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+### 4. Count of Palindromic Substrings (DP or Center Expansion)
+- **Problem Summary:** Given a string $s$, return the number of palindromic substrings in it.
+- **LeetCode Equivalent:** [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- **Approach:** Expand around center for all $2N-1$ possible centers (single-character and two-character centers).
+- **Complexity:** $O(N^2)$ Time, $O(1)$ Space.
+
+---
+
+## 🧠 Frequent CS MCQs Asked in Adobe OA
+1. **Virtual Destructors in C++:** Why should base class destructors always be declared `virtual`?
+   - *Answer:* To ensure that deleting a derived class object through a base class pointer invokes the derived class destructor first, preventing memory leaks.
+2. **Deadlock Recovery:** Which of the following is NOT a technique for deadlock recovery? (Process termination, Resource preemption, Rollback, Banker's algorithm - *Banker's is avoidance, not recovery*).
+3. **Database Indexing:** What data structure does InnoDB MySQL use for primary indexes? (B+ Tree).

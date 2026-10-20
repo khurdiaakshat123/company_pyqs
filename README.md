@@ -2,14 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![DSA Prep](https://img.shields.io/badge/Prep-DSA%20%7C%20Core%20CS%20%7C%20System%20Design-blue.svg)](#topic-wise-preparation)
+[![52 Companies](https://img.shields.io/badge/Companies%20Covered-52-brightgreen.svg)](#-master-company-oa-directory-52-companies)
+[![DSA Prep](https://img.shields.io/badge/Prep-DSA%20%7C%20Core%20CS%20%7C%20System%20Design%20%7C%20MCQs-blue.svg)](#-topic-wise-preparation)
 
-A comprehensive, curated repository of **Company Previous Year Questions (PYQs)**, coding interview problems, interview experiences, CS fundamentals revision notes, and aptitude preparation material for top tech and product companies.
+A comprehensive, curated repository containing **Online Assessment (OA) Guides, Recent Previous Year Questions (2023 - 2025/2026)**, platform formats, time constraints, MCQ coverage (OS, DBMS, CN, OOPs), aptitude patterns, and interview experiences across **52 top tech, quant/HFT, banking, and product companies**.
 
 ---
 
 ## 📌 Table of Contents
-- [🏢 Company-Wise Directory](#-company-wise-directory)
+- [🏢 Master Company OA Directory (52 Companies)](#-master-company-oa-directory-52-companies)
 - [📚 Topic-Wise Preparation](#-topic-wise-preparation)
   - [Data Structures & Algorithms (DSA)](#1-data-structures--algorithms-dsa)
   - [Core CS Fundamentals](#2-core-cs-fundamentals)
@@ -21,21 +22,64 @@ A comprehensive, curated repository of **Company Previous Year Questions (PYQs)*
 
 ---
 
-## 🏢 Company-Wise Directory
+## 🏢 Master Company OA Directory (52 Companies)
 
-Find company-specific interview patterns, frequently asked DSA problems, round structures, and past interview questions:
+Below is the complete sequential directory of all 52 companies, featuring platform details, test patterns, question types, and direct links to their comprehensive OA guides:
 
-| Company | Key Focus Areas | Link |
-|---|---|---|
-| **Google** | Advanced Graphs, Dynamic Programming, Trees, High Optimization | [Explore Google PYQs](companies/Google/README.md) |
-| **Amazon** | Leadership Principles, Trees, Graphs, HashMaps, Low-Level Design | [Explore Amazon PYQs](companies/Amazon/README.md) |
-| **Microsoft** | Strings, Linked Lists, Trees, System Design, Concurrency | [Explore Microsoft PYQs](companies/Microsoft/README.md) |
-| **Meta** | Binary Search, HashMaps, Two Pointers, Trees, Graph Traversals | [Explore Meta PYQs](companies/Meta/README.md) |
-| **Adobe** | Bit Manipulation, Math, DP, Arrays, OOPS | [Explore Adobe PYQs](companies/Adobe/README.md) |
-| **Atlassian** | Code Quality, System Design, Concurrency, Rate Limiters | [Explore Atlassian PYQs](companies/Atlassian/README.md) |
-| **Goldman Sachs** | Mathematical Aptitude, Dynamic Programming, Arrays, HashMaps | [Explore Goldman Sachs PYQs](companies/Goldman_Sachs/README.md) |
-| **Uber** | Graphs (Shortest Path), Interval Scheduling, Low-Level Design | [Explore Uber PYQs](companies/Uber/README.md) |
-| **TCS / Infosys / Wipro** | Quantitative Aptitude, Logical Reasoning, Coding Basics | [Explore Service Companies PYQs](companies/TCS_Infosys_Wipro/README.md) |
+| # | Company | OA Platform | Test Structure & Timing | Core Focus Areas | Direct Link |
+|:---:|---|---|---|---|:---:|
+| **1** | **Google** | GOC / HackerEarth | 2 Coding (60–90m) | Advanced DP, Trees, Rerooting, Segment Trees | [View Guide](companies/Google/README.md) |
+| **2** | **Microsoft** | Codility | 3 Coding (75–90m) | Strings, Arrays, Prefix Sums, Scalability Checks | [View Guide](companies/Microsoft/README.md) |
+| **3** | **Amazon** | HackerRank | 2 Coding (90m) + Work Style (15m) | Sliding Window, Heaps, BFS, Leadership Principles | [View Guide](companies/Amazon/README.md) |
+| **4** | **Goldman Sachs** | HackerRank | 2 Coding (60m) + Math (20m) + CS (20m) | Probability, Combinatorics, DP, Stock Profit | [View Guide](companies/Goldman_Sachs/README.md) |
+| **5** | **Qualcomm** | HirePro / HackerRank | 1–2 Coding + C/CS MCQs + Quants (60–90m) | Bit Manipulation, Pointers, Memory, Endianness | [View Guide](companies/Qualcomm/README.md) |
+| **6** | **Flipkart** | SHL / HackerEarth | 3 Coding (90m) | Complex 2D DP, Shortest Path, Supply Chain Logic | [View Guide](companies/Flipkart/README.md) |
+| **7** | **Adobe** | HackerRank | 2 Coding (60m) + CS/Quants MCQs (60m) | Bit Manipulation, Knapsack DP, OOP Destructors | [View Guide](companies/Adobe/README.md) |
+| **8** | **Oracle** | HackerRank | 1–2 Coding + CS MCQs (90–105m) | SQL Joins, B+ Trees, Paging, Prefix Sums | [View Guide](companies/Oracle/README.md) |
+| **9** | **Nvidia** | HackerRank | 2–3 Coding + C/C++ Systems MCQs (60–90m) | Memory Alignment, Bit Ranges, TLB, Cache Lines | [View Guide](companies/Nvidia/README.md) |
+| **10** | **Accenture** | AON (CoCubes) / Wheebox | Cognitive (90m) + Coding (45m) + Voice | Pseudocode Tracing, Array Ops, Cloud Basics | [View Guide](companies/Accenture/README.md) |
+| **11** | **Uber** | CodeSignal (GCA) | 4 Tasks (70m, Score 820+ needed) | Monotonic Deque, Grid Paths, Bus Routes, Sweep Line | [View Guide](companies/Uber/README.md) |
+| **12** | **Apple** | HackerRank / CodeSignal | 2–3 Coding + Core CS MCQs (60–90m) | String Parsing, Sliding Window, Trees, ARC Memory | [View Guide](companies/Apple/README.md) |
+| **13** | **D. E. Shaw** | HackerRank | 2–3 Coding + CS MCQs + Quants (80–120m) | Hard DP, Greedy Custom Comparators, Dijkstra | [View Guide](companies/DE_Shaw/README.md) |
+| **14** | **Infosys** | HackerEarth / Portal | SP/DSE: 3 Coding (180m) \| SE: Cognitive | Tree DP, Graph Cycles, Number Theory, Subarrays | [View Guide](companies/Infosys/README.md) |
+| **15** | **TCS** | TCS iON | Foundation (75m) + Advanced/Prime (90m) | Number Theory, Matrix Rotation, Palindromic DP | [View Guide](companies/TCS/README.md) |
+| **16** | **IBM** | HackerRank | 1–2 Coding + Bug Fixing + SQL MCQs (60–90m) | Contiguous Binary Arrays, Server Peak Logs, SQL | [View Guide](companies/IBM/README.md) |
+| **17** | **Wipro** | AMCAT / Superset | Aptitude (48m) + Essay (20m) + 2 Coding (60m) | Array Frequency, Strings, Kadane's Algorithm | [View Guide](companies/Wipro/README.md) |
+| **18** | **Cisco** | HackerRank / SHL | 35–40 Networking/CS MCQs + 2–3 Coding (90m) | Subnetting CIDR, Dijkstra, Tarjan Bridges, TCP | [View Guide](companies/Cisco/README.md) |
+| **19** | **Morgan Stanley** | HackerRank / AMCAT | Aptitude (20m) + Debug (20m) + 2–3 Coding (50m) | Code Debugging, Monotonic Stacks, Intervals | [View Guide](companies/Morgan_Stanley/README.md) |
+| **20** | **American Express** | HackerEarth / CoCubes | 2–3 Coding + CS/SQL MCQs (90–105m) | Card Points Window, Modulo Subarrays, SQL Rank | [View Guide](companies/American_Express/README.md) |
+| **21** | **Wells Fargo** | HackerRank | 2 Coding + 1 SQL Query + CS MCQs (75–90m) | SQL Window Functions, Strings, Matrix BFS | [View Guide](companies/Wells_Fargo/README.md) |
+| **22** | **Walmart** | HackerEarth | 2 Coding (60m) + CS MCQs (30m) | Multi-constraint Knapsack, Multi-source BFS, LCA | [View Guide](companies/Walmart/README.md) |
+| **23** | **Samsung (R&D)** | Samsung SWC | 1 Problem (180m, Mandatory 50/50 tests) | Backtracking Pruning, Bitmask DP, Wormhole BFS | [View Guide](companies/Samsung_RD/README.md) |
+| **24** | **Intel** | HackerRank | 2 Coding + Architecture MCQs (90m) | Set Bit Counting, LRU Cache, Cache 3-Cs, Pipelining | [View Guide](companies/Intel/README.md) |
+| **25** | **Cognizant** | AMCAT / Superset | Cognitive (40m) + Automata Fix (35m) + 2 Coding | Automata Debugging, Array Leaders, Anagrams | [View Guide](companies/Cognizant/README.md) |
+| **26** | **JP Morgan Chase** | HackerRank | 2 Coding (60m) + HireVue Video Interview | Subarray Sums, Group Anagrams, Grid Path DP | [View Guide](companies/JP_Morgan/README.md) |
+| **27** | **Barclays** | HackerEarth | 2 Coding (60m) + Java/CS MCQs (30m) | ConcurrentHashMap, House Robber, Containers | [View Guide](companies/Barclays/README.md) |
+| **28** | **HCL Technologies** | CoCubes / Firstnaukri | Aptitude (45m) + Technical (30m) + Coding (45m) | Factorial Trailing Zeros, Move Negatives, Anagrams | [View Guide](companies/HCL_Technologies/README.md) |
+| **29** | **Databricks** | CodeSignal (GCA) | 4 Tasks (70m, Score 830+ needed) | Unix Path Parsing, DAG Scheduling, Sluggish Array | [View Guide](companies/Databricks/README.md) |
+| **30** | **Meta (Facebook)** | CodeSignal / Portal | 2 Coding (45m speed test) | Sparse Vectors, Valid Parentheses, Vertical Tree | [View Guide](companies/Meta/README.md) |
+| **31** | **Jane Street** | Custom Math / CodeSignal | Probability, Expected Value, Sim (Take-Home) | Expected Value Martingales, Graph Walks, State Sim | [View Guide](companies/Jane_Street/README.md) |
+| **32** | **Graviton Research** | HackerRank / HackerEarth | 2–3 Hard Coding + Low-Latency MCQs (90–120m) | Packet Streams, Domino Tiling DP, False Sharing | [View Guide](companies/Graviton_Research_Capital/README.md) |
+| **33** | **Squarepoint Capital** | HackerRank / Codility | 2–3 Coding (90–120m) | Bookshelf Grid Clearance, Currency Arbitrage | [View Guide](companies/Squarepoint_Capital/README.md) |
+| **34** | **IMC Trading** | HackerRank / BrainsFirst | 2 Coding + Systems MCQs (SWE) \| Math Games | Underground Cavern BFS, Limit Order Book Engine | [View Guide](companies/IMC_Trading/README.md) |
+| **35** | **Rubrik** | HackerRank | 2–4 CP-Hard Coding (60–90m) | Bitwise AND Subarrays, 3D Elevation Trapping | [View Guide](companies/Rubrik/README.md) |
+| **36** | **Salesforce** | HackerRank | 2–3 Coding (60–90m) + CS MCQs | Network Latency Dijkstra, Subarray Deletion DP | [View Guide](companies/Salesforce/README.md) |
+| **37** | **Dell Technologies** | HackerEarth / AMCAT | Aptitude (30m) + Storage MCQs (30m) + Coding | RAID Configurations, Disk SCAN, Reverse List | [View Guide](companies/Dell/README.md) |
+| **38** | **Tech Mahindra** | Wheebox / AMCAT | Cognitive + Linux/OOP MCQs + 2 Coding | Array Mean, Odd-Even Partition, Harshad Numbers | [View Guide](companies/Tech_Mahindra/README.md) |
+| **39** | **Sprinklr** | HackerRank / Mettl | 3 Hard Coding (90m, Narrative Prompts) | Chef Allocation BS, Dynamic LCA Binary Lifting | [View Guide](companies/Sprinklr/README.md) |
+| **40** | **Arista Networks** | HackerRank | Systems/Linux MCQs (30m) + 3 Coding (60m) | Workload Heaps, Switch Ring Buffer, SIGKILL | [View Guide](companies/Arista_Networks/README.md) |
+| **41** | **Arcesium** | HackerRank | 2–3 Coding (60m) + Core CS MCQs (20m) | Hostile Bipartite Graph, Chunk Reversal, Balance | [View Guide](companies/Arcesium/README.md) |
+| **42** | **Mastercard** | HackerRank | 2 Coding (60m) + Core CS/SQL MCQs (30m) | Luhn Algorithm, Subarray Sums, Symmetric Tree | [View Guide](companies/Mastercard/README.md) |
+| **43** | **Deutsche Bank** | HackerEarth | 2–3 Coding (60m) + Financial MCQs (30m) | Stock Fee DP, Division Graph BFS, Consecutive SQL | [View Guide](companies/Deutsche_Bank/README.md) |
+| **44** | **BlackRock** | HackerRank | 2 Coding (60m) + Aladdin/Finance MCQs (30m) | Portfolio Rebalance, Decimal Rounding, Cash Flow | [View Guide](companies/BlackRock/README.md) |
+| **45** | **Capital One** | CodeSignal (GCA) | 4 Tasks (70m, Score 750–800+) | Banking Ledger Simulation, Matrix Diagonals | [View Guide](companies/Capital_One/README.md) |
+| **46** | **Meesho** | HackerRank / HackerEarth | 3 Hard Coding + CS MCQs (90–110m) | Meet-in-the-Middle ($N \le 36$), Large $K \le 10^{12}$ Sim | [View Guide](companies/Meesho/README.md) |
+| **47** | **Eternal (Zomato)** | HackerRank | 3 Coding + CS/ML MCQs (65–90m) | Tree Detachment, Modulo String Powers, Zero-Sort | [View Guide](companies/Eternal_Zomato/README.md) |
+| **48** | **Optiver** | HackerRank Desktop | Low-Level Design (LLD) + Systems + Zap-N (120m) | Future Pricing Engine, Log Server, Speed Math | [View Guide](companies/Optiver/README.md) |
+| **49** | **Tower Research** | HackerRank / Custom | 2–3 CP Hard Coding + C++ Debugging (90–120m) | 0-1 BFS Edge Flip, Taxicab Numbers, Vector Bugs | [View Guide](companies/Tower_Research/README.md) |
+| **50** | **Bank of America** | HackerRank / Codility | 2 Coding + Core CS/SQL MCQs (60–90m) | Invert Tree, First Unique Char, Running Balance SQL | [View Guide](companies/Bank_of_America/README.md) |
+| **51** | **Citi** | HackerRank / HackerEarth | 2 Coding (60m) + SQL/OOP Quiz (30m) | Islands BFS, Valid Palindrome II, Inactive Order SQL | [View Guide](companies/Citi/README.md) |
+| **52** | **LTIMindtree** | Mettl / TalentNext | Cognitive (40m) + Pseudocode (35m) + Coding (45m) | Pseudocode Tracing, Negative Shift, Armstrong | [View Guide](companies/LTIMindtree/README.md) |
 
 ---
 
@@ -73,20 +117,64 @@ High-yield, frequently asked interview questions:
 company_pyqs/
 ├── companies/
 │   ├── Google/
-│   ├── Amazon/
 │   ├── Microsoft/
-│   ├── Meta/
-│   ├── Adobe/
-│   ├── Atlassian/
+│   ├── Amazon/
 │   ├── Goldman_Sachs/
+│   ├── Qualcomm/
+│   ├── Flipkart/
+│   ├── Adobe/
+│   ├── Oracle/
+│   ├── Nvidia/
+│   ├── Accenture/
 │   ├── Uber/
-│   └── TCS_Infosys_Wipro/
+│   ├── Apple/
+│   ├── DE_Shaw/
+│   ├── Infosys/
+│   ├── TCS/
+│   ├── IBM/
+│   ├── Wipro/
+│   ├── Cisco/
+│   ├── Morgan_Stanley/
+│   ├── American_Express/
+│   ├── Wells_Fargo/
+│   ├── Walmart/
+│   ├── Samsung_RD/
+│   ├── Intel/
+│   ├── Cognizant/
+│   ├── JP_Morgan/
+│   ├── Barclays/
+│   ├── HCL_Technologies/
+│   ├── Databricks/
+│   ├── Meta/
+│   ├── Jane_Street/
+│   ├── Graviton_Research_Capital/
+│   ├── Squarepoint_Capital/
+│   ├── IMC_Trading/
+│   ├── Rubrik/
+│   ├── Salesforce/
+│   ├── Dell/
+│   ├── Tech_Mahindra/
+│   ├── Sprinklr/
+│   ├── Arista_Networks/
+│   ├── Arcesium/
+│   ├── Mastercard/
+│   ├── Deutsche_Bank/
+│   ├── BlackRock/
+│   ├── Capital_One/
+│   ├── Meesho/
+│   ├── Eternal_Zomato/
+│   ├── Optiver/
+│   ├── Tower_Research/
+│   ├── Bank_of_America/
+│   ├── Citi/
+│   └── LTIMindtree/
 ├── topics/
 │   ├── dsa/
 │   ├── core_cs/
 │   ├── system_design/
 │   └── aptitude/
 ├── CONTRIBUTING.md
+├── LICENSE
 └── README.md
 ```
 

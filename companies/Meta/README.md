@@ -1,28 +1,52 @@
-# Meta (Facebook) Interview Questions & PYQs ♾️
+# Meta (Facebook) Online Assessment Guide & PYQs (2023 - 2025/2026) ♾️
 
-## 🎯 Hiring Process Overview
-- **Initial Technical Screen:** 2 coding questions in 45 minutes. Speed and optimal solutions are crucial.
-- **Onsite Loop:**
-  - 2 Coding Rounds (2 problems each in 45 minutes)
-  - 1 System Design Round (Architecture, capacity estimation, trade-offs)
-  - 1 Behavioral Round
+## 📌 OA Overview & Test Logistics
+- **Assessment Platform:** **CodeSignal** / **HackerRank** / Meta Internal Assessment Portal
+- **Test Duration:** 45 to 70 minutes
+- **Structure Breakdown:**
+  - 2 to 4 Algorithmic Coding Problems (LeetCode Medium to Hard).
+  - In technical phone screening / automated OAs, candidates typically have **45 minutes to solve 2 distinct problems completely**.
+- **The "Meta Speed Benchmark":**
+  - Meta evaluates speed and immediate optimal execution. You are expected to produce clean, bug-free code with optimal time/space complexity within 15–20 minutes per problem.
 
-## 💡 Key Focus Areas
-- Binary Search (Rotated sorted arrays, boundary condition searches)
-- Two Pointers & Sliding Window
-- HashMaps & Frequency Counting
-- Tree and Graph Traversals
-- Top K elements / Min-Heap & Max-Heap
+---
 
-## 📝 Frequently Asked Previous Year Questions (PYQs)
+## 🎯 Exam Pattern & Question Topics (Last 3 Years Analysis)
 
-| Problem Name | Difficulty | Key Topics | LeetCode / Reference |
+Meta's question bank heavily revolves around classic, well-defined algorithmic patterns:
+
+| Frequency | Topic | Typical Difficulty | Key Concepts Tested |
 |---|---|---|---|
-| Valid Palindrome II | Easy | Two Pointers / String | LeetCode 680 |
-| Minimum Remove to Make Valid Parentheses | Medium | Stack / String | LeetCode 1249 |
-| Dot Product of Two Sparse Vectors | Medium | Two Pointers / Hash Table / Design | LeetCode 1570 |
-| Lowest Common Ancestor of Deepest Leaves | Medium | Tree / Post-order Traversal | LeetCode 1123 |
-| K Closest Points to Origin | Medium | Quickselect / Heap / Geometry | LeetCode 973 |
-| Subarray Sum Equals K | Medium | Prefix Sum + HashMap | LeetCode 560 |
-| Vertical Order Traversal of a Binary Tree | Hard | BFS / Coordinate Mapping | LeetCode 987 |
-| Expression Add Operators | Hard | Backtracking / Math | LeetCode 282 |
+| **Extremely High** | Two Pointers & Binary Search | Medium | Subarray sums, rotated array searches, palindrome extensions |
+| **Very High** | HashMaps & Frequency Counters | Easy - Medium | Subarray sum equals K, dot product of sparse vectors, custom sort |
+| **Very High** | Trees & Lowest Common Ancestor | Medium | Post-order traversal, LCA with parent pointers, vertical order |
+| **High** | Breadth-First & Depth-First Search | Medium - Hard | Shortest path on grid, word ladder, connected islands |
+| **Medium** | Monotonic Stack & Heaps | Medium | Valid parentheses removal, K closest points to origin |
+
+---
+
+## 📝 Recent Real OA Questions Asked (2023, 2024, 2025)
+
+### 1. Dot Product of Two Sparse Vectors
+- **Problem Summary:** Given two sparse vectors, compute their dot product efficiently without iterating over large runs of zeroes.
+- **LeetCode Equivalent:** [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
+- **Approach:** Store non-zero elements as pairs of `(index, value)`. Use Two Pointers to compute product where indices match.
+- **Complexity:** $O(L_1 + L_2)$ Time where $L_1, L_2$ are counts of non-zero elements.
+
+### 2. Minimum Remove to Make Valid Parentheses
+- **Problem Summary:** Given a string $s$ of `'('` , `')'` and lowercase English characters. Remove the minimum number of parentheses in any positions so that the resulting parentheses string is valid.
+- **LeetCode Equivalent:** [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+- **Approach:** Stack tracking unmatched `'('` indices, plus tracking invalid `')'` indices. Rebuild string skipping flagged indices.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
+### 3. Subarray Sum Equals K
+- **Problem Summary:** Given an array of integers `nums` and an integer `k`, return the total number of subarrays whose sum equals to `k`.
+- **LeetCode Equivalent:** [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- **Approach:** Hash Map storing prefix sum frequencies: `map[prefix_sum - k]`.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
+### 4. Vertical Order Traversal of Binary Tree
+- **Problem Summary:** Given the root of a binary tree, calculate the vertical order traversal of the binary tree.
+- **LeetCode Equivalent:** [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+- **Approach:** BFS tracking `(node, row, col)`. Group by `col`, sort by `row`, then value.
+- **Complexity:** $O(N \log N)$ Time.
