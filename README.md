@@ -2,15 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![52 Companies](https://img.shields.io/badge/Companies%20Covered-52-brightgreen.svg)](#-master-company-oa-directory-52-companies)
+[![70 Companies](https://img.shields.io/badge/Companies%20Covered-70-brightgreen.svg)](#-master-company-oa-directory-70-companies)
 [![DSA Prep](https://img.shields.io/badge/Prep-DSA%20%7C%20Core%20CS%20%7C%20System%20Design%20%7C%20MCQs-blue.svg)](#-topic-wise-preparation)
 
-A comprehensive, curated repository containing **Online Assessment (OA) Guides, Recent Previous Year Questions (2023 - 2025/2026)**, platform formats, time constraints, MCQ coverage (OS, DBMS, CN, OOPs), aptitude patterns, and interview experiences across **52 top tech, quant/HFT, banking, and product companies**.
+A comprehensive, curated repository containing **Online Assessment (OA) Guides, Multi-Year Previous Year Questions (2023 - 2025/2026)**, platform formats, time constraints, MCQ coverage (OS, DBMS, CN, OOPs), aptitude patterns, and campus drive breakdowns across **70 top tech, quant/HFT, banking, product, and enterprise IT recruiters**.
 
 ---
 
 ## 📌 Table of Contents
-- [🏢 Master Company OA Directory (52 Companies)](#-master-company-oa-directory-52-companies)
+- [🏢 Master Company OA Directory (70 Companies)](#-master-company-oa-directory-70-companies)
 - [📚 Topic-Wise Preparation](#-topic-wise-preparation)
   - [Data Structures & Algorithms (DSA)](#1-data-structures--algorithms-dsa)
   - [Core CS Fundamentals](#2-core-cs-fundamentals)
@@ -22,9 +22,9 @@ A comprehensive, curated repository containing **Online Assessment (OA) Guides, 
 
 ---
 
-## 🏢 Master Company OA Directory (52 Companies)
+## 🏢 Master Company OA Directory (70 Companies)
 
-Below is the complete sequential directory of all 52 companies, featuring platform details, test patterns, question types, and direct links to their comprehensive OA guides:
+Below is the complete sequential directory of all 70 companies, featuring platform details, test patterns, question types, and direct links to their comprehensive multi-year OA guides (with 8–10+ questions each spanning 2023–2026 campus and off-campus drives):
 
 | # | Company | OA Platform | Test Structure & Timing | Core Focus Areas | Direct Link |
 |:---:|---|---|---|---|:---:|
@@ -80,6 +80,24 @@ Below is the complete sequential directory of all 52 companies, featuring platfo
 | **50** | **Bank of America** | HackerRank / Codility | 2 Coding + Core CS/SQL MCQs (60–90m) | Invert Tree, First Unique Char, Running Balance SQL | [View Guide](companies/Bank_of_America/README.md) |
 | **51** | **Citi** | HackerRank / HackerEarth | 2 Coding (60m) + SQL/OOP Quiz (30m) | Islands BFS, Valid Palindrome II, Inactive Order SQL | [View Guide](companies/Citi/README.md) |
 | **52** | **LTIMindtree** | Mettl / TalentNext | Cognitive (40m) + Pseudocode (35m) + Coding (45m) | Pseudocode Tracing, Negative Shift, Armstrong | [View Guide](companies/LTIMindtree/README.md) |
+| **53** | **Atlassian** | TestGorilla / HackerRank | 3 Coding (90m) + Systems Questions | Distributed Rate Limiter, In-Memory File System, Topo Sort | [View Guide](companies/Atlassian/README.md) |
+| **54** | **Intuit** | HackerRank / Karat | 2 Coding (70m) + Core CS MCQs | Tax Bracket Intervals, QuickSort Partition, Subarray Max | [View Guide](companies/Intuit/README.md) |
+| **55** | **PayPal** | HackerRank | 2 Coding (60m) + Core CS MCQs (30m) | Currency Exchange, Partition Equal Subset, Fraud Detection | [View Guide](companies/PayPal/README.md) |
+| **56** | **ServiceNow** | HackerRank | 2 Coding (60m) + Java/DB MCQs (30m) | Workflow DAG, Course Schedule, Custom Iterator, SQL | [View Guide](companies/ServiceNow/README.md) |
+| **57** | **BNY Mellon** | HackerEarth | 2–3 Coding + Financial/CS MCQs (90m) | Trade Blotter Intervals, Max Cash Flow, SQL Window | [View Guide](companies/BNY_Mellon/README.md) |
+| **58** | **PhonePe** | HackerEarth | 2–3 Hard Coding (90m) | Merchant Graph Shortest Path, Minimum Cuts, Bitmask DP | [View Guide](companies/PhonePe/README.md) |
+| **59** | **Swiggy** | HackerEarth / HackerRank | 3 Coding (90m) | Delivery Hub Routing, Order Match, 2D Grid DP | [View Guide](companies/Swiggy/README.md) |
+| **60** | **Zepto** | HackerRank | 3 Coding (90m) | Dark Store Radius, Batching Heaps, Interval Knapsack | [View Guide](companies/Zepto/README.md) |
+| **61** | **Media.net** | CoCubes / HackerEarth | 3 Hard Coding (90m) | Ad Bidding Trees, Rolling Hash Rabin-Karp, Fenwick | [View Guide](companies/Media_net/README.md) |
+| **62** | **Zscaler** | HackerRank | 2 Coding + Networking MCQs (90m) | Proxy Routing, CIDR Binary Trie, Network Delay Time | [View Guide](companies/Zscaler/README.md) |
+| **63** | **Palo Alto Networks** | HackerRank | 2–3 Coding + Security MCQs (90m) | Firewall Rules, Longest Substring, Trie Pattern Match | [View Guide](companies/Palo_Alto_Networks/README.md) |
+| **64** | **SAP Labs** | HackerEarth | 2 Coding + Core CS/OOP MCQs (90m) | Enterprise ERP Orders, Two Pointers, Graph BFS | [View Guide](companies/SAP_Labs/README.md) |
+| **65** | **Nutanix** | HackerRank | 2–3 Hard Coding (90m) | Distributed Storage, Trapping Rain Water, SegTree | [View Guide](companies/Nutanix/README.md) |
+| **66** | **Cohesity** | HackerRank | 2–3 Hard Coding (90m) | Snapshot Deduplication, Rabin-Karp, LRU with TTL | [View Guide](companies/Cohesity/README.md) |
+| **67** | **Zoho** | In-House Portal | Basic Coding (60m) + Advanced LLD (120m) | Maze Solving, Custom String Parsing, Railway LLD | [View Guide](companies/Zoho/README.md) |
+| **68** | **Deloitte** | AMCAT / CoCubes | Cognitive + Computer Tech + Coding (90m) | Matrix Operations, Palindromes, SQL Aggregation | [View Guide](companies/Deloitte/README.md) |
+| **69** | **Capgemini** | CoCubes / Aon | Pseudocode (30m) + English + Coding (45m) | Bitwise Pseudocode Tracing, Array Segregation | [View Guide](companies/Capgemini/README.md) |
+| **70** | **Paytm** | HackerEarth | 2 Coding (60m) + Core CS MCQs (30m) | Wallet Balance Reconciliation, Sliding Window Sum | [View Guide](companies/Paytm/README.md) |
 
 ---
 
@@ -167,7 +185,25 @@ company_pyqs/
 │   ├── Tower_Research/
 │   ├── Bank_of_America/
 │   ├── Citi/
-│   └── LTIMindtree/
+│   ├── LTIMindtree/
+│   ├── Atlassian/
+│   ├── Intuit/
+│   ├── PayPal/
+│   ├── ServiceNow/
+│   ├── BNY_Mellon/
+│   ├── PhonePe/
+│   ├── Swiggy/
+│   ├── Zepto/
+│   ├── Media_net/
+│   ├── Zscaler/
+│   ├── Palo_Alto_Networks/
+│   ├── SAP_Labs/
+│   ├── Nutanix/
+│   ├── Cohesity/
+│   ├── Zoho/
+│   ├── Deloitte/
+│   ├── Capgemini/
+│   └── Paytm/
 ├── topics/
 │   ├── dsa/
 │   ├── core_cs/
