@@ -12,6 +12,7 @@ A comprehensive, curated repository containing **Online Assessment (OA) Guides, 
 
 ## 📌 Table of Contents
 - [🏢 Master Company OA Directory (70 Companies)](#-master-company-oa-directory-70-companies)
+- [🎯 Potential OA Questions Bank (273 Original & Proprietary Questions)](Potential_Questions.md)
 - [📚 Topic-Wise Preparation](#-topic-wise-preparation)
   - [Data Structures & Algorithms (DSA)](#1-data-structures--algorithms-dsa)
   - [Core CS Fundamentals](#2-core-cs-fundamentals)
