@@ -3,9 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![70 Companies](https://img.shields.io/badge/Companies%20Covered-70-brightgreen.svg)](#-master-company-oa-directory-70-companies)
+[![1400+ Verified Questions](https://img.shields.io/badge/Verified%20Questions-1400%2B-orange.svg)](#-master-company-oa-directory-70-companies)
 [![DSA Prep](https://img.shields.io/badge/Prep-DSA%20%7C%20Core%20CS%20%7C%20System%20Design%20%7C%20MCQs-blue.svg)](#-topic-wise-preparation)
 
-A comprehensive, curated repository containing **Online Assessment (OA) Guides, Multi-Year Previous Year Questions (2023 - 2025/2026)**, platform formats, time constraints, MCQ coverage (OS, DBMS, CN, OOPs), aptitude patterns, and campus drive breakdowns across **70 top tech, quant/HFT, banking, product, and enterprise IT recruiters**.
+A comprehensive, curated repository containing **Online Assessment (OA) Guides, Multi-Year Previous Year Questions (2023 - 2025/2026)**, platform formats, time constraints, MCQ coverage (OS, DBMS, CN, OOPs), aptitude patterns, and campus drive breakdowns across **70 top tech, quant/HFT, banking, product, and enterprise IT recruiters** (over **1,400+ fully-verified real questions**, $\ge 20$ questions per company, strictly deduplicated).
 
 ---
 
@@ -24,7 +25,7 @@ A comprehensive, curated repository containing **Online Assessment (OA) Guides, 
 
 ## 🏢 Master Company OA Directory (70 Companies)
 
-Below is the complete sequential directory of all 70 companies, featuring platform details, test patterns, question types, and direct links to their comprehensive multi-year OA guides (with 8–10+ questions each spanning 2023–2026 campus and off-campus drives):
+Below is the complete sequential directory of all 70 companies, featuring platform details, test patterns, question types, and direct links to their comprehensive multi-year OA guides (with **20+ verified real questions each**, spanning 2023–2026 campus and off-campus drives, totaling **1,400+ problems**):
 
 | # | Company | OA Platform | Test Structure & Timing | Core Focus Areas | Direct Link |
 |:---:|---|---|---|---|:---:|
