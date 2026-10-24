@@ -13,9 +13,9 @@
 ---
 
 ## 🎯 Question Pattern & Topics (Last 3 Years Analysis)
-- **Basic Mathematics & Arrays:** Prime numbers, Armstrong, palindrome numbers, array balance, mean comparisons.
+- **Basic Mathematics & Arrays:** Prime numbers, Armstrong, palindrome numbers, array balance, mean comparisons, Kadane's.
 - **Strings & Character Parsing:** Vowel/consonant counts, word reversal, anagram verification, character frequency compression.
-- **Two Pointers & In-Place Ops:** Move zeroes, remove duplicates, pair sums, odd-even segregation.
+- **Two Pointers & In-Place Ops:** Move zeroes, remove duplicates, pair sums, odd-even segregation, Dutch National Flag.
 - **Technical MCQs (Linux & OOP):** File permissions (`chmod`), Linux processes (`ps`, `grep`, `kill`), OOP pillars, basic SQL.
 - **Matrix Operations:** Matrix addition, diagonal sum, transpose, boundary element sum.
 
@@ -58,37 +58,105 @@
 - **Approach:** Linear scan maintaining count of identical consecutive characters.
 - **Complexity:** $O(N)$ Time, $O(1)$ Extra Space.
 
+#### 6. Maximum Subarray Sum (Kadane's Algorithm)
+- **College/Drive:** Tech Mahindra SuperCoder Drive 2024
+- **Problem Summary:** Find contiguous subarray with maximum sum in integer array.
+- **LeetCode Equivalent:** [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- **Approach:** Running sum: `curr = max(num, curr + num)`.
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+#### 7. Trapping Rain Water (SuperCoder Track)
+- **College/Drive:** SuperCoder Pan-India 2024 / SRM University
+- **Problem Summary:** Compute total water trapped by elevation bars after rain.
+- **LeetCode Equivalent:** [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- **Approach:** Two pointers inward from boundaries.
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+#### 8. Longest Substring Without Repeating Characters
+- **College/Drive:** Chandigarh University 2024
+- **Problem Summary:** Find length of longest substring without duplicate characters.
+- **LeetCode Equivalent:** [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- **Approach:** Sliding window with hash map storing character positions.
+- **Complexity:** $O(N)$ Time.
+
+#### 9. Search in Rotated Sorted Array
+- **College/Drive:** National Level Drive 2024
+- **Problem Summary:** Search target element in a sorted rotated array.
+- **LeetCode Equivalent:** [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- **Approach:** Modified binary search checking sorted half.
+- **Complexity:** $O(\log N)$ Time, $O(1)$ Space.
+
+#### 10. Subarray Sum Equals K
+- **College/Drive:** Campus Placement 2024
+- **Problem Summary:** Total number of continuous subarrays whose sum equals $K$.
+- **LeetCode Equivalent:** [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- **Approach:** Running prefix sum with hash map frequency tracking.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
 ---
 
 ### 2023 - 2024 Campus & Off-Campus Drives
 
-#### 6. Valid Palindrome After Cleaning
+#### 11. Valid Palindrome After Cleaning
 - **College/Drive:** Campus Slot 1 (2023)
 - **Problem Summary:** Check if string is palindrome considering only alphanumeric characters and ignoring case.
 - **LeetCode Equivalent:** [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - **Complexity:** $O(N)$ Time, $O(1)$ Space.
 
-#### 7. Matrix Primary and Secondary Diagonal Sum
+#### 12. Matrix Primary and Secondary Diagonal Sum
 - **College/Drive:** Campus Slot 2 (2023)
 - **Problem Summary:** Return sum of matrix diagonals without double counting center element for odd $N$.
 - **LeetCode Equivalent:** [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 - **Complexity:** $O(N)$ Time, $O(1)$ Space.
 
-#### 8. Check for Armstrong Number
+#### 13. Check for Armstrong Number
 - **College/Drive:** Off-Campus Hiring 2023
 - **Problem Summary:** Determine if sum of each digit raised to power of total number of digits equals the number itself.
 - **Complexity:** $O(\log_{10} N)$ Time, $O(1)$ Space.
 
-#### 9. Valid Anagram Verification
+#### 14. Valid Anagram Verification
 - **College/Drive:** Campus Hiring 2023
 - **Problem Summary:** Check if string $T$ is permutation of string $S$.
 - **LeetCode Equivalent:** [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - **Complexity:** $O(N)$ Time, $O(1)$ Space.
 
-#### 10. Missing Number in Array Range [1, N]
+#### 15. Missing Number in Array Range [1, N]
 - **College/Drive:** Campus Drive 2023
 - **Problem Summary:** Find single missing integer from range $[1, N]$ in array of size $N-1$.
 - **LeetCode Equivalent:** [268. Missing Number](https://leetcode.com/problems/missing-number/)
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+#### 16. Two Sum (Target Pair)
+- **College/Drive:** Pan-India Drive 2023
+- **Problem Summary:** Find indices of two numbers adding to target.
+- **LeetCode Equivalent:** [1. Two Sum](https://leetcode.com/problems/two-sum/)
+- **Approach:** One-pass Hash Map.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
+#### 17. Reverse Singly Linked List In-Place
+- **College/Drive:** Campus Drive 2023
+- **Problem Summary:** Reverse singly linked list in-place and return new head.
+- **LeetCode Equivalent:** [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- **Approach:** Three pointers (`prev`, `curr`, `next`).
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+#### 18. Valid Parentheses Expression
+- **College/Drive:** Campus Slot 2023
+- **Problem Summary:** Check if bracket sequence `'()[]{}'` is valid.
+- **LeetCode Equivalent:** [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- **Approach:** Stack data structure.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
+#### 19. Second Largest Element in Array Without Sorting
+- **College/Drive:** Off-Campus 2023
+- **Problem Summary:** Find second distinct largest element in array.
+- **Approach:** Single pass with `max1` and `max2`.
+- **Complexity:** $O(N)$ Time, $O(1)$ Space.
+
+#### 20. Majority Element (Boyer-Moore Voting)
+- **College/Drive:** University Drive 2023
+- **Problem Statement:** Find element appearing more than $\lfloor n / 2 \rfloor$ times.
+- **LeetCode Equivalent:** [169. Majority Element](https://leetcode.com/problems/majority-element/)
 - **Complexity:** $O(N)$ Time, $O(1)$ Space.
 
 ---

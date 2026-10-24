@@ -14,10 +14,11 @@
 ---
 
 ## 🎯 Question Pattern & Topics (Last 3 Years Analysis)
-- **Dynamic Programming:** State transitions, unbounded knapsack, coin change variants, grid paths.
-- **Graphs & BFS/DFS:** Shortest path, connected components, bipartite graphs, multi-source BFS.
-- **Trees & Binary Search Trees:** Lowest Common Ancestor (LCA), tree diameter, serialize/deserialize.
-- **Monotonic Stack / Queue:** Next greater element, largest rectangle in histogram, trapping rain water.
+- **Dynamic Programming:** 2D Knapsack, coin change variants, grid paths, word break.
+- **Graphs & BFS/DFS:** Shortest path, connected components, bipartite graphs, multi-source BFS (rotting oranges), topological sort.
+- **Trees & Binary Search Trees:** Lowest Common Ancestor (LCA), binary tree maximum path sum, serialize/deserialize.
+- **Monotonic Stack / Queue:** Largest rectangle in histogram, sliding window maximum, trapping rain water.
+- **Intervals & Sliding Window:** Merge intervals, longest substring without repeating characters, subarray sum equals K.
 
 ---
 
@@ -58,36 +59,106 @@
 - **LeetCode Equivalent:** [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - **Complexity:** $O(N)$ Time.
 
+#### 6. Subarray Sum Equals K (Cart Value Target)
+- **College/Drive:** IIT Delhi 2024
+- **Problem Summary:** Given customer item prices and cart target $K$, find total contiguous subsegments summing to $K$.
+- **LeetCode Equivalent:** [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- **Approach:** Running prefix sum with hash map frequency tracking.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
+#### 7. Search in Rotated Sorted Array (Catalog Binary Search)
+- **College/Drive:** IIT Bombay 2024
+- **Problem Summary:** Search target item price in a rotated sorted catalog array in $O(\log N)$ time.
+- **LeetCode Equivalent:** [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- **Approach:** Binary search checking sorted half.
+- **Complexity:** $O(\log N)$ Time.
+
+#### 8. Largest Rectangle in Histogram (Warehouse Pallet Stacking)
+- **College/Drive:** Walmart CodeHers 2024
+- **Problem Summary:** Given an array of integers `heights` representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.
+- **LeetCode Equivalent:** [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- **Approach:** Monotonic Increasing Stack storing bar indices. When encountering a shorter bar, pop stack top and calculate area with height of popped bar.
+- **Complexity:** $O(N)$ Time, $O(N)$ Space.
+
+#### 9. LRU Product Catalog Cache Implementation
+- **College/Drive:** BITS Pilani 2024
+- **Problem Summary:** Implement an LRU Cache with $O(1)$ `get` and `put` operations.
+- **LeetCode Equivalent:** [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+- **Approach:** Hash Map pointing to Doubly Linked List nodes.
+- **Complexity:** $O(1)$ Time per operation.
+
+#### 10. Order Fulfillment Pipeline (Course Schedule II)
+- **College/Drive:** NIT Surathkal 2024
+- **Problem Summary:** Given $N$ packing tasks and dependencies, return a valid linear completion order or empty array if deadlock exists.
+- **LeetCode Equivalent:** [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- **Approach:** Kahn's Algorithm using in-degrees and BFS queue.
+- **Complexity:** $O(V + E)$ Time, $O(V + E)$ Space.
+
 ---
 
 ### 2023 - 2024 Campus & Off-Campus Drives
 
-#### 6. Course Schedule (Topological Sort)
+#### 11. Course Schedule (Topological Sort)
 - **College/Drive:** Campus Slot 1 (2023)
 - **Problem Statement:** Check for cycles in task prerequisites.
 - **LeetCode Equivalent:** [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 - **Complexity:** $O(V + E)$ Time.
 
-#### 7. Merge Intervals
+#### 12. Merge Intervals
 - **College/Drive:** Campus Slot 2 (2023)
 - **Problem Statement:** Merge overlapping delivery time slots.
 - **LeetCode Equivalent:** [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - **Complexity:** $O(N \log N)$ Time.
 
-#### 8. Trapping Rain Water
+#### 13. Trapping Rain Water
 - **College/Drive:** Off-Campus 2023
 - **Problem Statement:** Compute water trapped between elevation bars.
 - **LeetCode Equivalent:** [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - **Complexity:** $O(N)$ Time.
 
-#### 9. Word Break (Dynamic Programming)
+#### 14. Word Break (Dynamic Programming)
 - **College/Drive:** Walmart CodeHers 2023
 - **Problem Statement:** Segment string into dictionary words.
 - **LeetCode Equivalent:** [139. Word Break](https://leetcode.com/problems/word-break/)
 - **Complexity:** $O(N^2)$ Time.
 
-#### 10. Maximum Subarray Sum (Kadane's)
+#### 15. Maximum Subarray Sum (Kadane's)
 - **College/Drive:** Campus Hiring 2023
 - **Problem Statement:** Largest contiguous subarray sum.
 - **LeetCode Equivalent:** [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - **Complexity:** $O(N)$ Time.
+
+#### 16. Binary Tree Maximum Path Sum
+- **College/Drive:** IIT Kharagpur 2023
+- **Problem Statement:** Find maximum path sum of any non-empty path in a binary tree.
+- **LeetCode Equivalent:** [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- **Approach:** Post-order DFS returning max branch gain.
+- **Complexity:** $O(N)$ Time, $O(H)$ Space.
+
+#### 17. Reorganize String / Shelf Arrangement
+- **College/Drive:** Walmart CodeHers 2023
+- **Problem Statement:** Rearrange characters so that no two adjacent characters are identical.
+- **LeetCode Equivalent:** [767. Reorganize String](https://leetcode.com/problems/reorganize-string/)
+- **Approach:** Max-Heap of character frequencies.
+- **Complexity:** $O(N \log \Sigma)$ Time.
+
+#### 18. Decode String (Dual Stack)
+- **College/Drive:** Campus Placement 2023
+- **Problem Statement:** Decode nested string encoding format `k[string]`.
+- **LeetCode Equivalent:** [394. Decode String](https://leetcode.com/problems/decode-string/)
+- **Approach:** Dual stack for multipliers and strings.
+- **Complexity:** $O(\text{Output Length})$ Time.
+
+#### 19. Sliding Window Maximum / Inventory Burst
+- **College/Drive:** Off-Campus 2023
+- **Problem Statement:** Maximum element in sliding window of size $K$.
+- **LeetCode Equivalent:** [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- **Approach:** Monotonic Decreasing Deque.
+- **Complexity:** $O(N)$ Time.
+
+#### 20. Minimum Cost to Connect All Points (Delivery Network MST)
+- **College/Drive:** Pan-India 2023
+- **Problem Statement:** Connect $N$ delivery hubs with minimum total Manhattan distance.
+- **LeetCode Equivalent:** [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- **Approach:** Prim's algorithm or Kruskal's with DSU.
+- **Complexity:** $O(N^2)$ Time.

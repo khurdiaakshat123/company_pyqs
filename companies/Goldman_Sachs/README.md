@@ -142,6 +142,27 @@
 - **Approach:** Dijkstra's Algorithm or 2D Dynamic Programming table.
 - **Complexity:** $O(M \times N \log(M \times N))$ Time.
 
+#### 18. Task Dependency Resolution (Course Schedule II)
+- **College/Drive:** Goldman Sachs Campus 2023
+- **Problem Summary:** Given $N$ financial trade processing tasks and dependencies, return a valid linear completion order or empty array if cyclic deadlock exists.
+- **LeetCode Equivalent:** [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- **Approach:** Kahn's Algorithm using in-degrees and BFS queue.
+- **Complexity:** $O(V + E)$ Time, $O(V + E)$ Space.
+
+#### 19. Longest Substring Without Repeating Characters
+- **College/Drive:** Goldman Sachs Off-Campus 2023
+- **Problem Summary:** Find length of longest substring without repeating characters in financial ticker stream.
+- **LeetCode Equivalent:** [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- **Approach:** Sliding window with hash map storing character positions.
+- **Complexity:** $O(N)$ Time, $O(\Sigma)$ Space.
+
+#### 20. Word Break (Order Token Validation)
+- **College/Drive:** Goldman Sachs Engineering Drive 2023
+- **Problem Summary:** Determine if trade order text can be segmented into a space-separated sequence of dictionary tokens.
+- **LeetCode Equivalent:** [139. Word Break](https://leetcode.com/problems/word-break/)
+- **Approach:** 1D DP boolean array: `dp[i]` is true if prefix `s[0...i-1]` is valid.
+- **Complexity:** $O(N^2)$ Time, $O(N)$ Space.
+
 ---
 
 ### 🧮 Frequently Tested Quantitative Math & Probability PYQs
